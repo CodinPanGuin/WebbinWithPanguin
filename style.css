@@ -187,3 +187,53 @@ p {
     width: 100%;
     max-width: 300px;
 }
+
+.animate-when-hover {
+    transition: transform 0.5s;
+}
+
+.animate-when-hover:hover {
+    animation: colorChange 5s infinite;
+}
+
+@keyframes colorChange {
+    0% {
+        color: black;
+    }
+    25% {
+        color: white;
+    }
+    50% {
+        color: purple;
+    }
+    75% {
+        color: white;
+    }
+    100% {
+        color: black;
+    }
+}
+
+.title::before {
+    content: "📝";
+    margin-right: 10px;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--Text-primary);
+    text-shadow: var(--Background-tertiary) 4px 4px 0px;
+}
+.tags {
+    font-size: 0.9rem;
+    color: var(--Text-secondary);
+    background-color: var(--Background-primary);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 8px;
+    display: inline-block;
+}
+.datetime {
+    font-size: 0.7rem;
+}

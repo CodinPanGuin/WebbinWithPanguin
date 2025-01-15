@@ -12,7 +12,7 @@
             <header class="navbar">
                 
                 <div class="logo">
-                    <a href="./index.html">CodinPenguin</a>
+                    <a href="./index.html"><span class="animate-when-hover">CodinPenguin</span></a>
                 </div>
                 
                 <div class="menu-toggle" id="menu-toggle">
@@ -30,15 +30,44 @@
                 </div>
 
             </header>
-
             <main class="content">
+                <!-- Search for tags list them make them selectable so it hides non selected ones with hiding element -->
+                <div class="tags">
+                    <b>Tags</b>
+                    <!-- Filterable tags -->
+                    <div class="tags-filter" id="tags-filter">
+                        <!-- Tags will be dynamically populated here by JS -->
+                    </div>
+                </div>
                 <div class="welcome">
                     <h2>Blog Posts</h2>
                 </div>
-                <a href="./blog/0001-post.html"><b>Template</b></a><br>
-            </main>
+                <!-- Blog posts with associated tags -->
+                <div class="blog-posts">
+                    <a href="./blog/0001-post.html">
+                        <b>
+                            <span class="datetime">2024-01-15</span><br>
+                            <span class="title">Template</span>
+                            <span class="tags">Temp</span>
+                            <span class="tags">Test</span><br>
+                        </b>
+                    </a><br>
+                    <a href="./blog/0001-post.html">
+                        <b>
+                            <span class="datetime">2024-01-15</span><br>
+                            <span class="title">Template</span>
+                            <span class="tags">Temp</span>
+                            <span class="tags">Test</span>
+                            <span class="tags">Test but not</span><br>
 
-            <script src="nav.js"></script>
+                        </b>
+                    </a><br>
+                </div>
+            </main>
+            
+            <script src="./JS/nav.js"></script>
+            <script src="./JS/tags.js"></script>
+            
 
         </div>
     </body>
