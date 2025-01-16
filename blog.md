@@ -1,6 +1,6 @@
 ---
 layout: blogs
-title: blogs
+title: Blogs
 loc: blog
 ---
 <a href="/blog/0001-test">

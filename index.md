@@ -1,6 +1,6 @@
 ---
 layout: front-page
-title: test
+title: CodinPenguin
 loc: home
 ---
 **Yo dayo, I'm <span class="animate-when-hover">CodinPenguin</span>.**<br><br>
