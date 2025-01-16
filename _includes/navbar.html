@@ -1,0 +1,36 @@
+<header class="navbar">
+                
+    <div class="logo">
+        <a href="/"><span class="animate-when-hover">CodinPenguin</span></a>
+    </div>
+    
+    <div class="menu-toggle" id="menu-toggle">
+        ☰
+    </div>
+    
+    <nav class="nav-links" id="nav-links">
+        {% if page.loc == "home" %}
+            <a href="/" class="active">*HOME*</a>
+        {% else %}
+            <a href="/">HOME</a>
+        {% endif %}
+        
+        {% if page.loc == "resources" %}
+            <a href="/resources" class="active">*RESOURCES*</a>
+        {% else %}
+            <a href="/resources">RESOURCES</a>
+        {% endif %}
+        
+        {% if page.loc == "blog" %}
+            <a href="/blog">*BLOG*</a>
+        {% else %}
+            <a href="/blog">BLOG</a>
+        {% endif %}
+    </nav>
+    </nav>
+    
+    <div class="rss-icon">
+        <a href="/res/feed.txt">📡</a>
+    </div>
+
+</header>

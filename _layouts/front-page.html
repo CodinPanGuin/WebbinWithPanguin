@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include head.html %}
+    <body>
+        <div class="box">
+            {% include navbar.html %}
+
+            <main class="content">
+                <div class="socials">
+                    <b>Buttons</b>
+                </div>
+                <div class="social-icons">
+                    {% include res/buttons.html %}
+                </div>
+                <div class="welcome">
+                    <h1>Welcome</h1>
+                </div>
+                    {{content}}
+            </main>
+
+            <script src="/JS/nav.js"></script>
+
+        </div>
+    </body>
+</html>

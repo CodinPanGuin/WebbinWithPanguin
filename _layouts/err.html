@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body>
+        <div class="box">
+            {% include navbar.html %}
+            <main class="content">
+                <div class="welcome">
+                    <h1 style="text-align: center;">{{ page.title }}</h1>
+                    <p style="text-align: center;">{{ page.errcode }}<br>{{ page.errmsg }}</p>
+                    <picture>
+                        <source srcset="/res/{{ page.errcode | default: 404}} .png" type="image/webp">
+                        <img class="err-image" src="/res/{{ page.errcode | default: 404}}.png" alt="{{ page.errcode }}">
+                    </picture>
+                </div>
+            </main>
+            <script src="/JS/nav.js"></script>
+        </div>
+    </body>
+</html>
