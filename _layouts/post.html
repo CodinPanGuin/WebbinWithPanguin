@@ -11,9 +11,10 @@
                 {{content}}
             </main>
  
-            <script src="/nav.js"></script>
-            <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
- 
+            <script src="/JS/nav.js"></script>
+            {% if page.latex == true %}
+                        <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+            {% endif %}
         </div>
     </body>
 </html>

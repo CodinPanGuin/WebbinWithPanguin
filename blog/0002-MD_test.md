@@ -1,0 +1,12 @@
+---
+layout: post
+title: test
+title2: Test
+loc: blog
+latex: true
+---
+
+# This is test of how markdown work in Jekyll
+
+$$ latex=1 $$ <br>
+$$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
