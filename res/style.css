@@ -2,19 +2,31 @@
 :root {
     /*** Colors ***/
         /* Backgrounds */
-        --Background-primary: #817e9e;
-        --Background-secondary: #594e70;
-        --Background-tertiary: #3c3250;
-        --Background-quaternary: #9794b4;
-        --Background-quinary: linear-gradient(45deg, #de6182 15%, #c24572 80%);
-    
+        --Background-primary: #1b4d3e;
+        --Background-secondary: #233e32;
+        --Background-tertiary: #4b6f44;
+        --Background-quaternary: #7a8c68;
+        --Background-quinary: linear-gradient(45deg, #ffffff56 0%,  #ffffff56 100%);
+
+
         /* Text Colors */
-        --Text-primary: #ffffff;
-    
+        --Text-primary: #f0f0f0;
+
         /* Borders and Shadows */
-        --Border-primary: var(--Background-tertiary);
-        --Border-secondary: #f282a0;
+        --Border-primary: #48584e;
+        --Border-secondary: #86a491;
+
+
+        /* Code colors */
+        --Background-code: #343f44;
+        --Border-code: #2d353b;
+        --Nb-color: #a7c080;
+        --Code-color: #c8bba1;
+        --Nl-color: #83c092;
+        --Nt-color: #bb6769;
+
 }
+
 
 body {
     margin: 0;
@@ -122,16 +134,13 @@ a {
 .content p {
     margin-left: 0;
 }
-
 .socials,
 .welcome,
 .credits {
-    border: 1px solid var(--Border-glow-2);
     background-image: var(--Background-quinary);
     box-shadow: 3px 3px 0px var(--Background-primary);
-    padding: 20px;
-    padding-bottom:12px;
-    padding-top:12px;
+    padding: 0px;
+    padding-left: 20px;
     width: 100%;
     min-width: 100%;
 }
@@ -146,7 +155,6 @@ p {
     text-align: left ;
     margin-left: 0;
 }
-
 .welcome p {
     font-size: 1.2rem;
     text-align: center;
@@ -226,10 +234,16 @@ p {
     color: var(--Text-primary);
     text-shadow: var(--Background-tertiary) 4px 4px 0px;
 }
-.tags {
+.tags{
+    border-radius: 5px;
+    background-color: #ffffff54;
+    padding: 2px 5px;
+    color: black !important;
+    font-weight: bold;
+
+}
+.tags label {
     font-size: 0.9rem;
-    color: var(--Text-secondary);
-    background-color: var(--Background-primary);
     border-radius: 5px;
     padding: 5px 10px;
     margin-right: 8px;
@@ -237,4 +251,7 @@ p {
 }
 .datetime {
     font-size: 0.7rem;
+}
+.bls-block {
+    border-bottom: 2px solid var(--Border-primary);
 }

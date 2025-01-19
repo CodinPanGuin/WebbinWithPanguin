@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-    {% include head.html %}x
+    {% include head.html %}
+    <link rel="stylesheet" href="/res/blog.css">
     <body>
         <div class="box">
             {% include navbar.html %}
-            <main class="content">
-                <div class="welcome">
-                    <h2>{{ page.title2 }} </h2>
+            <main class="content-blog">
+                <div class="content-header-title">
+                    <h1>{{ page.title2 }} </h1>
+                    <div class="blog-date">
+                        <p>{{ page.date | date: "%B %d, %Y" }}</p>
+                    </div>
                 </div>
+                </title>
                 {{content}}
             </main>
  

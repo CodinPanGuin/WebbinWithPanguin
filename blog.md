@@ -3,19 +3,15 @@ layout: blogs
 title: Blogs
 loc: blog
 ---
-<a href="/blog/0001-Template">
+<div class="bls-block">
+<a href="/blog/0001-CppOnArchLinux">
     <b>
-        <span class="datetime">2024-01-15</span><br>
-        <span class="title">Template </span>
-        <span class="tags">Temp</span>
-        <span class="tags">Test</span><br>
+        <span class="datetime">January 19, 2025</span><br>
+        <span class="index" style="color : #fff;">-1-</span>
+        <span class="title">Setting up C++ development environment on Arch Linux  </span>
+        <span class="tags" style="display:inline-block;">Linux</span>
+        <span class="tags" style="display:inline-block;">C++</span>
+        <span class="tags" style="display:inline-block;">Coding</span>
     </b>
-</a><br>
-<a href="/blog/0002-MD_test">
-    <b>
-        <span class="datetime">2024-01-16</span><br>
-        <span class="title">MD test </span>
-        <span class="tags">MarkDown</span>
-        <span class="tags">Test</span>
-    </b>
-</a><br>
+</a>
+</div>
