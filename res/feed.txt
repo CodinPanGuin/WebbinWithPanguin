@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
-<channel>
-  <title>CodinPanguinRSS</title>
-  <description>Just a RSS for my personal website</description>
-  <link>https://codinpanguin.neocities.org</link>
-  <lastBuildDate>
-    Sun, 12 Jan 2025 02:49 +0100
-  </lastBuildDate>
-  <ttl>20000</ttl>
-<item>
-  <title>Testing First Irem</title>
-  <description>
-    Just Test
-  </description>
-  <link>https://codinpanguin.neocities.org</link>
-  <pubDate>
-    Sun, 12 Jan 2025 02:49 +0100
-  </pubDate>
-</item>
-</channel>
+  <channel>
+    <title>Codin Panguin</title>
+    <link>https://codinpanguin.uk</link>
+    <description>Rss feed for CodingPanGuin.uk</description>
+    <language>en-us</language>
+    <pubDate>Sat, 15 Jan 2025 12:00:00 +0000</pubDate>
+    <lastBuildDate>Sat, 19 Jan 2025 12:00:00 +0000</lastBuildDate>
+
+    <item>
+      <title>First Blog Post</title>
+      <link>https://codinpanguin.uk/blog/0001-CppOnArchLinux</link>
+      <description>Setting up C++ development environment on Arch Linux</description>
+      <pubDate>Sat, 19 Jan 2025 12:00:00 +0000</pubDate>
+      <guid>https://codinpanguin.uk/blog/0001-CppOnArchLinux</guid>
+    </item>
+
+    
+  </channel>
 </rss>
