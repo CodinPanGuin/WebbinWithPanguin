@@ -6,6 +6,15 @@ loc: blog
 latex: false
 date: 2025-01-19
 ---
+# Table of contents
+1. [Introduction](#introduction)
+2. [Setting up the environment](#setting-up-the-environment)
+3. [Installing the tools](#installing-the-tools)
+4. [Setting up the project](#setting-up-the-project)
+5. [Time to code](#time-to-code)
+
+
+
 # Introduction
 Hi there, I am CodinPanGuin and I mainly code on [Arch Linux](https://archlinux.org/){:target="_blank"} therefore this guide is focused on Arch Linux. But even if you don't use Arch Linux, I hope you can still find this post somehow useful.
 
