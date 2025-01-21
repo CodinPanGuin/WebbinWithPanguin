@@ -7,16 +7,11 @@
         --Background-tertiary: #4b6f44;
         --Background-quaternary: #7a8c68;
         --Background-quinary: linear-gradient(45deg, #ffffff56 0%,  #ffffff56 100%);
-
-
         /* Text Colors */
         --Text-primary: #f0f0f0;
-
         /* Borders and Shadows */
         --Border-primary: #48584e;
         --Border-secondary: #86a491;
-
-
         /* Code colors */
         --Background-code: #343f44;
         --Border-code: #2d353b;
@@ -24,9 +19,7 @@
         --Code-color: #c8bba1;
         --Nl-color: #83c092;
         --Nt-color: #bb6769;
-
 }
-
 
 body {
     margin: 0;
@@ -105,7 +98,6 @@ a {
     font-size: 1.5rem;
     cursor: pointer;
 }
-
 /*** Distinction between phone and desktop for nav bar ***/
 @media (min-width: 768px) {
     .menu-toggle {
@@ -134,8 +126,6 @@ a {
 .content p {
     margin-left: 0;
 }
-
-
 .title-bar {
     background-image: var(--Background-quinary);
     box-shadow: 3px 3px 0px var(--Background-primary);
@@ -187,36 +177,4 @@ a {
     100% {
         color: black;
     }
-}
-/* Articles */
-.title::before {
-    content: "📝";
-    margin-right: 10px;
-}
-.title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: var(--Text-primary);
-    text-shadow: var(--Background-tertiary) 4px 4px 0px;
-}
-.tags{
-    border-radius: 5px;
-    background-color: #ffffff54;
-    padding: 2px 5px;
-    color: black !important;
-    font-weight: bold;
-
-}
-.tags label {
-    font-size: 0.9rem;
-    border-radius: 5px;
-    padding: 5px 10px;
-    margin-right: 8px;
-    display: inline-block;
-}
-.datetime {
-    font-size: 0.7rem;
-}
-.bls-block {
-    border-bottom: 2px solid var(--Border-primary);
 }

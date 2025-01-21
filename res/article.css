@@ -1,0 +1,33 @@
+
+/* Articles */
+.title::before {
+    content: "📝";
+    margin-right: 10px;
+}
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--Text-primary);
+    text-shadow: var(--Background-tertiary) 4px 4px 0px;
+}
+.tags{
+    border-radius: 5px;
+    background-color: #ffffff54;
+    padding: 2px 5px;
+    color: black !important;
+    font-weight: bold;
+
+}
+.tags label {
+    font-size: 0.9rem;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 8px;
+    display: inline-block;
+}
+.datetime {
+    font-size: 0.7rem;
+}
+.bls-block {
+    border-bottom: 2px solid var(--Border-primary);
+}
