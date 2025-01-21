@@ -136,9 +136,7 @@ a {
 }
 
 
-.socials,
-.welcome,
-.credits {
+.title-bar {
     background-image: var(--Background-quinary);
     box-shadow: 3px 3px 0px var(--Background-primary);
     padding: 0px;
@@ -147,20 +145,6 @@ a {
     min-width: 100%;
 }
 
-.welcome h1 {
-    margin: 0;
-    font-size: 1.8rem;
-}
-p {
-    font-size: 1.2rem;
-    color :black;
-    text-align: left ;
-    margin-left: 0;
-}
-.welcome p {
-    font-size: 1.2rem;
-    text-align: center;
-}
 /*** Desktop ***/
 @media (min-width: 768px) {
     .content {
@@ -168,27 +152,6 @@ p {
         justify-content: space-between;
         align-items: flex-start;
         margin: 20px 10%;
-    }
-
-    .socials,
-    .welcome,
-    .credits {
-        max-width: none;
-    }
-
-    .socials {
-        flex: 1;
-        margin-right: 20px;
-    }
-
-    .welcome {
-        flex: 2;
-        margin-right: 20px;
-        text-align: left;
-    }
-
-    .credits {
-        flex: 1;
     }
 }
 /*** Error page ***/
