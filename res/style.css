@@ -37,6 +37,7 @@ body {
     color: var(--Text-primary);
     box-sizing: border-box;
 }
+/*** Primary Box containing all the content ***/
 .box {
     margin: 10%;
     margin-top: 2%;
@@ -48,11 +49,7 @@ a {
     text-decoration: none !important;
     color: black;
 }
-.nav-links a {
-    color: var(--Text-primary);
-    background-image: var(--Background-quinary);
-    border: 1px solid var(--Border-primary);
-}
+/*** Navigation ***/
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -63,6 +60,11 @@ a {
     position: relative;
 }
 
+.nav-links a {
+    color: var(--Text-primary);
+    background-image: var(--Background-quinary);
+    border: 1px solid var(--Border-primary);
+}
 .navbar .logo {
     font-size: 1.5rem;
     font-weight: bold;
@@ -84,29 +86,27 @@ a {
     border-top: 1px solid var(--Border-glow-3);
     z-index: 1000;
 }
-
 .nav-links.active {
     display: flex;
     border-bottom: 1px solid var(--Border-glow);
 }
-
 .nav-links a {
     font-size: 1rem;
     font-weight: bold;
     padding: 10px 20px;
     display: block;
 }
-
+.rss-icon {
+    font-size: 1.5rem;
+}
+/*** Navbar for phone ***/
 .menu-toggle {
     display: block;
     font-size: 1.5rem;
     cursor: pointer;
 }
 
-.rss-icon {
-    font-size: 1.5rem;
-}
-
+/*** Distinction between phone and desktop for nav bar ***/
 @media (min-width: 768px) {
     .menu-toggle {
         display: none;
@@ -122,7 +122,7 @@ a {
         width: auto;
     }
 }
-
+/*** Main content ***/
 .content {
     display: flex;
     flex-direction: column;
@@ -134,6 +134,8 @@ a {
 .content p {
     margin-left: 0;
 }
+
+
 .socials,
 .welcome,
 .credits {
@@ -159,7 +161,7 @@ p {
     font-size: 1.2rem;
     text-align: center;
 }
-
+/*** Desktop ***/
 @media (min-width: 768px) {
     .content {
         flex-direction: column;
@@ -189,6 +191,7 @@ p {
         flex: 1;
     }
 }
+/*** Error page ***/
 .err-image {
     display: block;
     margin: 0 auto;
@@ -204,7 +207,7 @@ p {
 .animate-when-hover:hover {
     animation: colorChange 5s infinite;
 }
-
+/* Animation for fun */
 @keyframes colorChange {
     0% {
         color: black;
@@ -222,12 +225,11 @@ p {
         color: black;
     }
 }
-
+/* Articles */
 .title::before {
     content: "📝";
     margin-right: 10px;
 }
-
 .title {
     font-size: 1.5rem;
     font-weight: bold;
@@ -254,71 +256,4 @@ p {
 }
 .bls-block {
     border-bottom: 2px solid var(--Border-primary);
-}
-
-
-/*form*/
-.contact-form {
-    background-color: var(--Background-secondary);
-    border: 1px solid var(--Border-primary);
-    border-radius: 8px;
-    padding: 20px;
-    max-width: 600px;
-    margin: 20px auto;
-    box-shadow: 3px 3px 0 var(--Background-tertiary);
-    color: var(--Text-primary);
-}
-
-.contact-form h2 {
-    font-size: 1.8rem;
-    margin-bottom: 20px;
-    color: var(--Text-primary);
-    text-shadow: var(--Background-tertiary) 2px 2px 0px;
-}
-
-.contact-form label {
-    display: block;
-    font-size: 1rem;
-    margin-bottom: 8px;
-    color: var(--Text-primary);
-}
-
-.contact-form input,
-.contact-form textarea {
-    display:flex;
-    flex-direction: column;
-    width: 95%;
-    padding: 10px;
-    margin-bottom: 20px;
-    font-size: 1rem;
-    border: 1px solid var(--Border-primary);
-    border-radius: 5px;
-    background-color: var(--Background-tertiary);
-    color: var(--Text-primary);
-    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.contact-form input:focus,
-.contact-form textarea:focus {
-    outline: none;
-    border-color: var(--Border-secondary);
-    box-shadow: 0 0 5px var(--Border-secondary);
-}
-
-.contact-form button {
-    background: var(--Background-quinary);
-    border: 1px solid var(--Border-secondary);
-    color: var(--Text-primary);
-    padding: 10px 20px;
-    font-size: 1rem;
-    font-weight: bold;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.contact-form button:hover {
-    background: linear-gradient(45deg, #48584e, #4b6f44);
-    transform: scale(1.05);
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
