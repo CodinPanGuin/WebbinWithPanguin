@@ -3,6 +3,20 @@
     --Text-primary: #ffffffd3;
     --Text-secondary: #000000a8;
     --Headers : #6b3132;
+    --Code-Coment : #859289;
+    --Code-String : #a7c080;
+    --Code-Number : #d699b6;
+    --Code-Keyword : #b5bd68;
+    --Code-Function : #81a2be;
+    --Code-Variable : #d699b6;
+    --Code-Operator : #a7c080;
+    --Code-color : #d3c6aa;
+
+
+
+
+
+
 }
 
 /* Blog-Text */
@@ -44,6 +58,14 @@ p {
     color: var(--Text-secondary);
     font-weight: bold;
 }
+a {
+    color: var(--Headers);
+    font-weight: bold;
+}
+a:hover {
+    color: #ffffff7e;
+}
+
 /* Code Highlighting */
 .highlighter-rouge {
     background-color: var(--Background-code);
@@ -58,7 +80,7 @@ pre {
     margin: 0;
     font-size: 1rem;
     line-height: 1.5;
-    color: var(--Text-primary);
+    color: var(--Code-color);
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     background: none;
@@ -67,20 +89,36 @@ code {
     color: var(--Code-color);
     background: none;
 }
+code .c1 {
+    color: var(--Code-Coment);
+}
+code .c {
+    color: var(--Code-Coment);
+}
 code .nb {
-    color: var(--Nb-color);
+    color: var(--Code-Number);
+}
+code .p {
+    color: var(--Code-Operator);
+}
+code .s2 {
+    color: var(--Code-String);
+}
+code .si {
+    color: var(--Code-String);
 }
 code .nt {
-    color: var(--Nt-color);
+    color: var(--Code-Variable);
 }
-a {
-    color: var(--Headers);
-    font-weight: bold;
+code .nv  {
+    color: var(--Code-Function);
 }
-a:hover {
-    color: #ffffff7e;
+code .o {
+    color: var(--Code-Operator);
 }
-
+code .k {
+    color: var(--Code-Keyword);
+}
 /* Form */
 .contact-form {
     background-color: var(--Background-secondary);
