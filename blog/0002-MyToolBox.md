@@ -9,6 +9,8 @@ date: 2025-01-23
 # Table of contents
 1. [Introduction](#introduction)
 2. [Password manager](#password-manager)
+3. [Text editor](#text-editor)
+4. [Browser](#browser)
 
 # Introduction
 Yo, I am CodinPanGuin and today I came to show you some of my favorite tools I use on daily basis.
