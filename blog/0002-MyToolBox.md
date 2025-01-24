@@ -21,7 +21,7 @@ I used to use my personal password manager, which I created with C++ because I w
 
 ### Comparison:
 - [KeePass](https://www.keepassx.org/): Original software, written in C# and only available on Windows without emulation.<br><br>
-- [KeePassX](https://www.keepassx.org/): Fork of [KeePass](https://www.keepassx.org/), written in C++ released for Windows(vista =<), macOS(10.7=<) and Linux via source code compilation. This project's development has stopped, and it recommends using KeePassXC.<br><br>
+- [KeePassX](https://www.keepassx.org/): Fork of [KeePass](https://www.keepassx.org/), written in C++ released for Windows(vista =<), macOS(10.7=<) and Linux via source code compilation. This project's development has stopped, and it recommends using [KeePassXC](https://keepassxc.org/).<br><br>
 - [KeePassXC](https://keepassxc.org/): Fork of [KeePassX](https://www.keepassx.org/), written in C++ released for Windows(7 =<), macOS(with support for Intel and Silicon Macs) and for Linux via package manager or source code compilation. This project is still active and has browser extensions for [Chromium-base browsers](https://chromewebstore.google.com/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/).<br><br>
 
 #### Recommendation for Android:
@@ -34,8 +34,8 @@ I use [neovim](https://neovim.io/) with [packer.nvim](https://github.com/wbthoma
 ### Plugins I use:
 - [TREE SITTER](https://github.com/nvim-treesitter/nvim-treesitter/wiki/Installation#packernvim): Treesitter is a parser generator tool, this means that it can parse source code and create a syntax tree. This is useful for syntax highlighting, code folding, and more.<br><br>
 - [UNDO TREE](https://github.com/mbbill/undotree?tab=readme-ov-file#download-and-install): This plugin is a visual representation changes made to the buffer.<br><br>
-- [RSSFEED by 4DRIAN0RTIZ](https://github.com/4DRIAN0RTIZ/rssfeed.nvim?tab=readme-ov-file#using-packer): RSS plugin that allows you to read RSS feeds in neovim.<br><br>
-- [CONQUER OF COMPLETION](https://github.com/neoclide/coc.nvim/wiki/Install-coc.nvim#using-packernvim): Intellisense engine for neovim by searching for words in the buffer and providing suggestions. You could also install plugins into this engine like.<br>
+- [RSSFEED by 4DRIAN0RTIZ](https://github.com/4DRIAN0RTIZ/rssfeed.nvim?tab=readme-ov-file#using-packer): RSS plugin that allows you to read RSS feeds in [neovim](https://neovim.io/).<br><br>
+- [CONQUER OF COMPLETION](https://github.com/neoclide/coc.nvim/wiki/Install-coc.nvim#using-packernvim): Intellisense engine for [neovim](https://neovim.io/) by searching for words in the buffer and providing suggestions. You could also install plugins into this engine like.<br>
 
 ---
 ## Browser
