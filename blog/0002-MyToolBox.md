@@ -17,12 +17,12 @@ Yo, I am CodinPanGuin and today I came to show you some of my favorite tools I u
 
 ---
 ## Password manager
-I used to use my personal password manager, which I created with C++ because I wanted my passwords locally stored and encrypted. But then I found [KeePassXC](https://keepassxc.org/) which perfectly matches my needs and more. It stores its database in encrypted file with .kdbx extension. [KeePassXC](https://keepassxc.org/) is modified based on it's predecessor [KeePassX](https://www.keepassx.org/) that also was a fork of [KeePass](https://keepass.info/). This development is made possible by the open-source license (GNU GENERAL PUBLIC LICENSE) which allows for anyone to modify and distribute the software as long as they follow the license.
+I used to use my personal password manager, which I created with C++ because I wanted to store and encrypt my passwords locally. But then I found [KeePassXC](https://keepassxc.org/), which perfectly matches my needs and more. It stores its database in encrypted file with a .kdbx extension. [KeePassXC](https://keepassxc.org/) is based on its predecessor [KeePassX](https://www.keepassx.org/) that also was a fork of [KeePass](https://keepass.info/). This development is made possible by the open-source license (GNU General Public License), which allows anyone to modify and distribute the software as long as they follow the terms of the license.
 
 ### Comparison:
 - [KeePass](https://www.keepassx.org/): Original software, written in C# and only available on Windows without emulation.<br><br>
-- [KeePassX](https://www.keepassx.org/): Fork of [KeePass](https://www.keepassx.org/), written in C++ released for Windows(vista =<), macOS(10.7=<) and Linux via source code compilation. This project's development has stopped and recommands to use KeePassXC.<br><br>
-- [KeePassXC](https://keepassxc.org/): Fork of [KeePassX](https://www.keepassx.org/), written in C++ released for Windows(7 =<), macOS(with support for Intel and Silicon Macs) and for Linux via package manager or source code compilation. This project is still active and does have browser extensions for [Chromium based browsers](https://chromewebstore.google.com/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/).<br><br>
+- [KeePassX](https://www.keepassx.org/): Fork of [KeePass](https://www.keepassx.org/), written in C++ released for Windows(vista =<), macOS(10.7=<) and Linux via source code compilation. This project's development has stopped, and it recommends using KeePassXC.<br><br>
+- [KeePassXC](https://keepassxc.org/): Fork of [KeePassX](https://www.keepassx.org/), written in C++ released for Windows(7 =<), macOS(with support for Intel and Silicon Macs) and for Linux via package manager or source code compilation. This project is still active and has browser extensions for [Chromium-base browsers](https://chromewebstore.google.com/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/).<br><br>
 
 #### Recommendation for Android:
 - [KeePassDX](https://f-droid.org/en/packages/com.kunzisoft.keepass.libre/): Free and open source application for Android that can open both .kdbx and .kdb files. You can obtain this via [F-Droid](https://f-droid.org/en/)
@@ -39,12 +39,12 @@ I use [neovim](https://neovim.io/) with [packer.nvim](https://github.com/wbthoma
 
 ---
 ## Browser
-I use [Firefox](https://www.mozilla.org/en-GB/firefox/new/) as my main browser I like how I can costuming it with [userChrome.css](https://www.userchrome.org/), the extentions it has.
+I use [Firefox](https://www.mozilla.org/en-GB/firefox/new/) as my main browser I like how I can customize, it with [userChrome.css](https://www.userchrome.org/), the extensions it has.
 
 ---
 ### Extensions I could recommend:
-- [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/): An efficient element blocker that may primari be used for blocking advertisements but it can do so much more. It can block scripts, frames, and more. You dont like join button on youtube? You can block it easily.<br><br>
+- [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/): An efficient element blocker that may primarily be used for blocking advertisements, but it can do much more. It can block scripts, frames, and more. Don't like the join button on YouTube? You can easily block it.<br><br>
 - [Copy PlainText](https://addons.mozilla.org/en-US/firefox/addon/copy-plaintext/): As the name suggests, this extension allows you to copy text without any formatting. In two click.<br><br>
-- [ClearUrls](https://addons.mozilla.org/en-US/firefox/addon/clearurls/): This extension removes tracking elements from URLs. This is useful for privacy when you want to share things with others with out giving away information about you.<br><br>
+- [ClearUrls](https://addons.mozilla.org/en-US/firefox/addon/clearurls/): This extension removes tracking elements from URLs. This is useful for privacy when you want to share things with others without giving away information about yourself.<br><br>
 
 ---
