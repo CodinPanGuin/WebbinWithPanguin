@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
   <channel>
+
     <title>Codin Panguin</title>
     <link>https://codinpanguin.uk</link>
     <description>Rss feed for CodingPanGuin.uk</description>
     <language>en-us</language>
-    <pubDate>Sat, 15 Jan 2025 12:00:00 +0000</pubDate>
-    <lastBuildDate>Sat, 19 Jan 2025 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 Jan 2025 11:21:00 +0000</lastBuildDate>
+    <pubDate>Sat, 23 Jan 2025 11:21:00 +0000</pubDate>
 
     <item>
       <title>First Blog Post</title>
@@ -15,7 +16,14 @@
       <pubDate>Sat, 19 Jan 2025 12:00:00 +0000</pubDate>
       <guid>https://codinpanguin.uk/blog/0001-CppOnArchLinux</guid>
     </item>
-
     
+    <item>
+      <title>Second Blog Post</title>
+      <link>https://codinpanguin.uk/blog/0002-MyToolBox</link>
+      <description>My tool box for daily use and quality of life</description>
+      <pubDate>Sat, 23 Jan 2025 11:21:00 +0000</pubDate>
+      <guid>https://codinpanguin.uk/blog/0002-MyToolBox</guid>
+    </item>
+
   </channel>
 </rss>
