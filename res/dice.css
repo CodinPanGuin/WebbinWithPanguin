@@ -1,0 +1,63 @@
+.game  {
+    background-image: var(--Background-quinary);
+    box-shadow: 3px 3px 0px var(--Border-primary);
+    padding: 0px;
+    padding-left: 20px;
+    padding: 20px;
+    width: 100%;
+    min-width: 100%;
+    text-align: center;
+    text-shadow: 2px 2px 0px var(--Border-primary);
+}
+.game h2 {
+    margin: 0;
+    font-size: 2rem;
+    color: var(--Background-quaternary);
+}
+.game p {
+    color: var(--Background-code);
+    font-size: 1.5rem;
+}
+.resultp{
+    font-size: 2rem;
+}
+.resultd {
+    font-size: 2rem;
+}
+.dices ,.dealer-dices {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.dice {
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+.dice.rolling {
+    animation: roll 1s infinite ;
+}
+
+@keyframes roll {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(180deg); }
+    100% { transform: rotate(360deg); }
+}
+.game button {
+    background-color: var(--Background-quaternary);
+    color: var(--Background-secondary);
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
