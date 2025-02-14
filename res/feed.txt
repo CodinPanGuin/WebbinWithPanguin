@@ -9,7 +9,7 @@
   <pubDate>Sat, 23 Jan 2025 11:21:00 +0000</pubDate>
 
   <item>
-    <title>BlogPost C++ OnA rch</title>
+    <title>BlogPost C++ OnArch</title>
     <link>https://codinpanguin.uk/blog/0001-CppOnArchLinux</link>
     <description>Setting up C++ development environment on Arch Linux</description>
     <pubDate>Sat, 19 Jan 2025 12:00:00 +0000</pubDate>
