@@ -1,0 +1,41 @@
+
+    <style>
+        #news-container {
+            margin-top: -2%;
+            width: 80%;
+            margin-left: 10%;
+            overflow: hidden;
+            white-space: nowrap;
+            box-sizing: border-box;
+            background-color: #A7B39B;
+        }
+        #news {
+            display: inline-block;
+            color:#233E32;
+            padding-left: 100%;
+            animation: slide 15s linear infinite;
+        }
+        @keyframes slide {
+            from {
+                transform: translateX(0%);
+            }
+            to {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+<body>
+    <div id="news-container">
+        <div id="news"></div>
+    </div>
+
+    <script>
+        fetch('/news.txt')
+            .then(response => response.text())
+            .then(data => {
+                const newsElement = document.getElementById('news');
+                newsElement.textContent = data;
+            })
+            .catch(error => console.error('Error fetching news:', error));
+    </script>
+</body>

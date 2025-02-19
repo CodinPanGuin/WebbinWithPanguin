@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include head.html %}	
+    <link rel="stylesheet" href="/res/article.css">
+    <body>
+        <div class="box">
+            {% include navbar.html %}
+            <main class="content">
+                <div class="tags">
+                    <b>Tags</b>
+                    <div class="tags-filter" id="tags-filter">
+                    </div>
+                </div>
+                <div class="title-bar">
+                    <h2>Blog Posts</h2>
+                </div>
+                <div class="blog-posts">
+                    {{content}}
+                    </div>
+                </div>
+                <div class="blog-list">
+                </div>
+            </main>
+            <script src="/JS/nav.js"></script>
+            <script src="/JS/tags.js"></script>
+        </div>
+        {%include news.html%}
+    </body>
+</html>
