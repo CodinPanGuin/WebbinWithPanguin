@@ -4,6 +4,20 @@ title: Blogs
 loc: blog
 ---
 <div class="bls-block">
+<a href="/blog/0004-Kyocera501">
+    <b>
+        <span class="datetime">February 17, 2025</span><br>
+        <span class="index" style="color : #fff;">-4-</span>
+        <span class="title">Minimalism, life with Kyocera 501KC</span>
+        <span class="tags" style="display:inline-block;">Hardware</span>
+        <span class="tags" style="display:inline-block;">Irl</span>
+        <span class="tags" style="display:inline-block;">Windows</span>
+        <span class="tags" style="display:inline-block;">Android</span>
+        <span class="tags" style="display:inline-block;">Linux</span>
+    </b>
+</a>
+</div>
+<div class="bls-block">
 <a href="/blog/0003-WhenOldDevicesFail">
     <b>
         <span class="datetime">February 13, 2025</span><br>
