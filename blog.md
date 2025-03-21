@@ -3,6 +3,17 @@ layout: blogs
 title: Blogs
 loc: blog
 ---
+
+<div class="bls-block">
+<a href="/blog/0005-my_naming_scheme">
+    <b>
+        <span class="datetime">March 21, 2025</span><br>
+        <span class="index" style="color : #fff;">-5-</span>
+        <span class="title">Naming scheme</span>
+        <span class="tags" style="display:inline-block;">System</span>
+    </b>
+</a>
+</div>
 <div class="bls-block">
 <a href="/blog/0004-Kyocera501">
     <b>

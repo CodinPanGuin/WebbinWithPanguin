@@ -38,5 +38,12 @@
     <pubDate>Sat, 17 Feb 2025 00:00:00 +0000</pubDate>
     <guid>https://codinpanguin.uk/blog/0004-Kyocera501</guid>
   </item>
+  <item>
+    <title>My naming scheme</title>
+    <link>https://codinpanguin.uk/blog/0005-my_naming_scheme</link>
+    <description>My naming scheme</description>
+    <pubDate>Sat, 21 Mar 2025 00:00:00 +0000</pubDate>
+    <guid>https://codinpanguin.uk/blog/0004-Kyocera501</guid>
+  </item>
   </channel>
 </rss>
