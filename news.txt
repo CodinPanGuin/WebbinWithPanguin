@@ -1,3 +1,4 @@
+*** My naming scheme
 *** News bar
 *** New post (4) Kyrocra 501
 *** New Function (Game in 404 page)
