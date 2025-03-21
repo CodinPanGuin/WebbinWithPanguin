@@ -10,9 +10,10 @@ date: 2025-03-21
 ```bash
 [topic]_[yyyy-m.mm-dd]_notes.[extention]
 ```
-- topic > prefix snake_case (lower case with underscopes)
+
+- topic > prefix [snake_case](https://en.wikipedia.org/wiki/Snake_case){:target="_blank"} (lower case with underscopes)
 - _ > underscope to differ between topic and date
-- yyyy-m.mm-dd > date with kebab-case (elements are seperated with dash)
+- yyyy-m.mm-dd > date with [kebab-case](https://en.wiktionary.org/wiki/kebab_case){:target="_blank"} (elements are seperated with dash)
     - yyyy > full year 
     - m. > indicator of month possition
     - mm > full number of month
@@ -32,7 +33,7 @@ naming_scheme_2025-m.03-21_notes.md
 # Function
 [action][WhatItDoes]
 ```
-- camelCase (all lower case first world and rest starts with capital)
+- [camelCase](https://en.wikipedia.org/wiki/Camel_case){:target="_blank"} (all lower case first world and rest starts with capital)
 
 ### Variables/functions example
 ```bash
@@ -47,7 +48,7 @@ appendAgeTotal
 ```bash
 [WORD][WORD]
 ```
-- SCREAMINGCASE
+- [SCREAMINGCASE](https://en.wiktionary.org/wiki/screaming_snake_case){:target="_blank"}
 
 ### Constat example
 ```bash
@@ -59,7 +60,7 @@ PI
 ```bash
 [Word][AnotherWord]
 ```
-- PascalCase (Every word starts with capital)
+- [PascalCase](https://en.wiktionary.org/wiki/upper_camel_case#English){:target="_blank"} (Every word starts with capital)
 
 ### Class example
 ```bash
@@ -70,7 +71,7 @@ UserProfile
 ```bash
 [word]-[another]-[word]
 ```
-- kebab-case
+- [kebab-case](https://en.wiktionary.org/wiki/kebab_case){:target="_blank"}
 
 ### Folder examples
 ```bash
