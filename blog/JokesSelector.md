@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Joke Printer"
-title2: "Joke Printer"
+title: "Joke Selector"
+title2: "Joke Selector"
 loc: blog
 latex: false
 date: 2025-04-13
