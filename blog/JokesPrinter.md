@@ -23,7 +23,6 @@ button {
     color: white;
     padding: 10px 20px;
     text-align: center;
-    // center the button
     display: block;
     width: 20%;
     margin:auto 40% auto;
@@ -33,10 +32,10 @@ button {
 <div id="jokes">Loading jokes...</div>
  <button onclick="window.location.href='/blog/JokesSelector'">Select Joke Amount</button>
 <script>
-  // Get 'amount' parameter from URL
   const urlParams = new URLSearchParams(window.location.search);
-  const jokeAmount = urlParams.get('amount') || 1;
+  const jokeAmount = urlParams.get('amount') || 3;
   const jokeContainer = document.getElementById("jokes");
+
   fetch(`https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,explicit&type=single&amount=${jokeAmount}`)
     .then(response => {
       if (!response.ok) {
@@ -46,11 +45,16 @@ button {
     })
     .then(data => {
       jokeContainer.innerHTML = "";
+    
+      if (data.error) {
+        jokeContainer.textContent = "API Error: " + data.message;
+        return;
+      }
+
       const jokes = data.jokes || [data];
       jokes.forEach(jokeObj => {
         const jokeDiv = document.createElement("div");
         jokeDiv.className = "joke";
-        // Replace \n with <br> for HTML formatting
         const formattedJoke = jokeObj.joke.replace(/\n/g, "<br>");
         jokeDiv.innerHTML = formattedJoke;
         jokeContainer.appendChild(jokeDiv);
