@@ -28,7 +28,7 @@ button {
     margin:auto 40% auto;
 }
 </style>
-<h1 style="text-align: center;">Jokes Printer 😂</h1>
+<h1 style="text-align: center;">Jokes Selector 🤡</h1>
 
 <input type="number" id="jokeCount" min="1" max="20" value="3" />
 
