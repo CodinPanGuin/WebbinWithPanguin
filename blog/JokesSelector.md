@@ -30,7 +30,7 @@ button {
 </style>
 <h1 style="text-align: center;">Jokes Selector 🤡</h1>
 
-<input type="number" id="jokeCount" min="1" max="20" value="3" />
+<input type="number" id="jokeCount" min="1" max="10" value="3" />
 
 <br>
 <button onclick="goToJokes()">Get Jokes</button>
