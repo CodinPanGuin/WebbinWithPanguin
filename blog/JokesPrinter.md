@@ -30,7 +30,8 @@ button {
 </style>
 <h1 style="text-align: center;">Jokes Printer 😂</h1>
 <div id="jokes">Loading jokes...</div>
- <button onclick="window.location.href='/blog/JokesSelector'">Select Joke Amount</button>
+<button onclick="window.location.href='/blog/JokesSelector'">Select Joke Amount</button>
+
 <script>
   const urlParams = new URLSearchParams(window.location.search);
   const jokeAmount = urlParams.get('amount') || 3;
